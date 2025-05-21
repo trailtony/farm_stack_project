@@ -1,5 +1,5 @@
 from pydantic import BaseModel
 
-class Todo(BaseException):
+class Todo(BaseModel):
     title: str
     description: str
