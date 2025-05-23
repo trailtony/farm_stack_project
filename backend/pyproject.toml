@@ -2,8 +2,12 @@
 name = "backend"
 version = "0.1.0"
 description = "Add your description here"
+authors = [
+    { name = "António Lopes",email = "faithmakerneo@gmail.com" },
+]
+license = {text = "Proprietary"}
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.11"
 dependencies = [
     "fastapi==0.65.1",
     "motor==2.4.0",
