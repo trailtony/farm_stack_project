@@ -1,7 +1,7 @@
 [project]
 name = "backend"
 version = "0.1.0"
-description = "Add your description here"
+description = "The FARM stack is FastAPI, React, and MongoDB. Created a basic CRUD application using the FARM stack."
 authors = [
     { name = "António Lopes",email = "faithmakerneo@gmail.com" },
 ]
