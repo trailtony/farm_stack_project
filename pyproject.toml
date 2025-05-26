@@ -1,15 +1,14 @@
 [project]
-name = "backend"
+name = "farm-stack-project"
 version = "0.1.0"
 description = "The FARM stack is FastAPI, React, and MongoDB. Created a basic CRUD application using the FARM stack."
 authors = [
     { name = "António Lopes",email = "faithmakerneo@gmail.com" },
 ]
-license = {text = "Proprietary"}
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 dependencies = [
-    "fastapi==0.65.1",
-    "motor==2.4.0",
-    "uvicorn==0.14.0",
+    "fastapi>=0.115.12",
+    "motor>=3.7.1",
+    "uvicorn>=0.34.2",
 ]
