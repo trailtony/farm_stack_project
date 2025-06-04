@@ -2,6 +2,7 @@ import './App.css';
 import React, {useState, useEffect} from 'react';
 import axios from 'axios';
 import bootstrap from 'bootstrap/dist/css/bootstrap.min.css';
+import TodoView from './components/TodoListView';
 
 function App() {
 
@@ -42,7 +43,7 @@ function App() {
 
       <h5 className = "card text-white bg-dark mb-3">Your Tasks</h5>
       <div>
-        {/*Todo items - external component */}
+      <TodoView todoList={todoList} />
       </div>
     </div>
     <h6 className = "card text-dark bg-warning py-1 mb-0" >Copyright 2021, All rights reserved &copy;</h6>
