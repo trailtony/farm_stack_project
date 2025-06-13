@@ -13,14 +13,7 @@ A full-stack notes application built with the FARM stack: **FastAPI**, **React**
 
 ## 🚀 Setup Instructions
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/farm-stack-notes-app.git
-cd farm-stack-notes-app
-```
-
-### 2. Set Up MongoDB Atlas
+### 1. Set Up MongoDB Atlas
 
 1. Go to [MongoDB Atlas](https://www.mongodb.com/cloud/atlas/register).
 2. Create a new **free cluster**.
@@ -31,7 +24,7 @@ cd farm-stack-notes-app
    mongodb+srv://<username>:<password>@cluster.mongodb.net/notes?retryWrites=true&w=majority
    ```
 
-### 3. Create a `.env` File
+### 2. Create a `.env` File
 
 Inside the `backend` folder:
 
@@ -59,7 +52,7 @@ Start the FastAPI backend:
 
 ```bash
 cd backend
-uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+uvicorn app.main:app --reload
 ```
 
 Then start the React frontend:
