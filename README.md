@@ -1,4 +1,3 @@
-Create the file to download
 # 📝 FARM Stack Notes App
 
 A full-stack notes application built with the FARM stack: **FastAPI**, **React**, and **MongoDB**. This project allows users to create, read, update, and delete notes with a clean interface and robust backend. It is based on the tutorial by freeCodeCamp and MongoDB Developers.
@@ -97,7 +96,6 @@ frontend/
 ## 📚 References
 
 - [freeCodeCamp FARM Stack Guide](https://www.freecodecamp.org/news/learn-the-farm-stack-fastapi-reactjs-mongodb/)
-- [YouTube Video Tutorial](https://www.youtube.com/watch?v=OzUzrs8uJl8)
 
 ## 📝 License
 
